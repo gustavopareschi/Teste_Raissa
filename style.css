@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --font-primary: font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: var(--font-primary);
+    color: white;
+}
+
+header{
+    background-color: aqua;
+    
+    padding: 2rem 1rem;
+    
+    font-size: 3rem;
+}
+
+main{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 2rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev{
+    display: flex;
+    width: 35rem;
+    padding: 0.8rem;
+    border-color: white;
+    border: solid;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    gap: 3.2rem;
+}
+
+img{
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+}
+
+p {
+    font-size: 1.2rem;
+    
+}
+
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 2.9rem 0;
+
+    font-size: 2rem;
+    margin-top: 2rem;
+
+    color: black;
+}
+
